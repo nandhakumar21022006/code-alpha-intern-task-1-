@@ -1,4 +1,5 @@
 **🔒 Cyber Security Internship – Task 1**
+
 Network Traffic Analysis & Packet Sniffing using Python (Kali Linux)
 
 This repository contains the work completed for Task 1 of the Cyber Security Internship.
@@ -6,6 +7,7 @@ This repository contains the work completed for Task 1 of the Cyber Security Int
 The objective of this task is to capture and analyze network traffic packets, understand packet structures, and observe how data flows across a network using Python and Kali Linux.
 
 **📌 Task Objective**
+
 To build a Python-based network packet sniffer capable of:
 
 Capturing live network traffic
@@ -19,6 +21,7 @@ To build a Python-based network packet sniffer capable of:
 Understanding communication flow between devices
 
 **🛠 Tools Used**
+
 Kali Linux
 
 Used as the primary operating system for network monitoring and packet analysis.
@@ -36,6 +39,7 @@ Wireshark (Optional)
 Can be used to verify captured traffic and analyze packet exchanges visually.
 
 **🚀 Steps Performed**
+
 Built a Packet Sniffer
 
 Developed a Python program using raw sockets to capture network packets directly from the network interface.
@@ -43,6 +47,7 @@ Developed a Python program using raw sockets to capture network packets directly
 Captured Live Network Traffic
 
 Executed the packet sniffer and generated network traffic using ICMP ping requests.
+
 **Example:**
 
 ping google.com
@@ -82,6 +87,7 @@ Output was recorded in:
 task1_capture.log
 
 **🔍 Key Findings**
+
 ✔ Successfully captured 100 network packets
 
 ✔ Identified ICMP Echo Requests and Echo Replies
@@ -93,6 +99,7 @@ task1_capture.log
 ✔ Generated protocol statistics and traffic summaries
 
 **Example Communication:**
+
 10.0.2.15  →  142.250.143.113
 
 ICMP Echo Request
@@ -102,6 +109,7 @@ ICMP Echo Request
 ICMP Echo Reply
 
 **📚 Key Concepts Learned**
+
 ✔ Packet Sniffing
 
 Capturing and inspecting network packets as they travel across a network.
@@ -124,13 +132,17 @@ Understanding Ethernet frames, IP headers, and protocol-specific information.
 
 
 **📊 Results**
+
 Capture Summary:
+
 Total Packets Captured : 100
 Total Bytes Captured   : 9,860
 
 Protocol Distribution:
+
 ICMP    : 98
 PROTO0  : 2
 
 **✅ Conclusion**
+
 This task provided practical experience in packet sniffing, network traffic analysis, and protocol inspection using Python and Kali Linux. The developed packet sniffer successfully captured live network traffic, analyzed packet details, and demonstrated how devices communicate across a network. This task strengthens foundational knowledge in network security and cybersecurity monitoring.
