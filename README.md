@@ -47,10 +47,15 @@ task1_capture.log
 
 **🔍 Key Findings**
 ✔ Successfully captured 100 network packets
+
 ✔ Identified ICMP Echo Requests and Echo Replies
+
 ✔ Displayed source and destination IP addresses
+
 ✔ Observed packet flow between the local machine and external hosts
+
 ✔ Generated protocol statistics and traffic summaries
+
 **Example Communication:**
 10.0.2.15  →  142.250.143.113
 ICMP Echo Request
